@@ -1,0 +1,41 @@
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+
+# Ignore editor and IDE-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore debugging files
+*.dSYM/
+*.stackdump
+
+# Ignore input and output files
+SudokuPuzzle.txt
+output.txt
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore core dumps
+core.*
+
+# Optional additions based on environment/build system
+.vscode/ # VS Code workspace settings
+*.obj     # Object files (if not all in /obj/)
+CMakeFiles/ # CMake build files
+CMakeCache.txt
+_CPackConfig.cmake
+_CPackSourceConfig.cmake
+CPack.Log.txt
+install_manifest.txt
+sudoku    # If your executable is named sudoku
